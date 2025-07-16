@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dragons Web Studio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: sans-serif; color: #fff; }
+    header, section.bg {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: overlay;
+      background-color: rgba(0,0,0,0.6);
+      padding: 100px 20px;
+      text-align: center;
+    }
+    nav {
+      background: #000;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    h1, h2 {
+      margin-bottom: 20px;
+      color: #f44;
+    }
+    .content {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    .card {
+      background: #fff;
+      color: #000;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header style="background-image: url('assets/header.jpg');">
+    <h1>Dragons Web Studio</h1>
+    <p>Diseño web profesional desde solo 150 €</p>
+  </header>
+
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#precios">Precios</a>
+    <a href="#caracteristicas">Características</a>
+  </nav>
+
+  <section id="servicios" class="bg" style="background-image: url('assets/servicios.jpg');">
+    <div class="content">
+      <h2>Servicios</h2>
+      <div class="card">Diseño Web Profesional</div>
+      <div class="card">Tiendas Online</div>
+      <div class="card">Landing Pages</div>
+      <div class="card">Mantenimiento Web</div>
+    </div>
+  </section>
+
+  <section id="precios" class="bg" style="background-image: url('assets/precios.jpg');">
+    <div class="content">
+      <h2>Precios</h2>
+      <div class="card">Web básica: desde 150 €</div>
+      <div class="card">Landing Page: desde 120 €</div>
+      <div class="card">Tienda online: desde 300 €</div>
+    </div>
+  </section>
+
+  <section id="caracteristicas" class="bg" style="background-image: url('assets/caracteristicas.jpg');">
+    <div class="content">
+      <h2>Características</h2>
+      <div class="card">Responsive</div>
+      <div class="card">Velocidad</div>
+      <div class="card">Autogestión</div>
+      <div class="card">Seguridad</div>
+    </div>
+  </section>
+</body>
+</html>
